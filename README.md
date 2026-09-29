@@ -1,1 +1,2 @@
 # Semantic-HTML-Portfolio-Skeleton
+Project Section, I want to talk about my top 2 personal projects as well as one of my collaborative projects and then talk about what skills are being demonstrated in each project. 
