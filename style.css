@@ -69,3 +69,21 @@ section {
     text-align: center;
     padding: 50px 25px;
 }
+
+#projects article {
+    background-color: var(--secondary-background);
+    padding: 28px;
+    margin-bottom: 35px;
+    border-radius: 12px;
+    border: 1px solid #333333;
+}
+
+#projects img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#projects ul {
+    padding-left: 25px;
+    line-height: 1.8;
