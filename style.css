@@ -104,4 +104,21 @@ a:focus-visible {
     outline-offset: 4px;
 }
 
-    
+#contact {
+    background-color: var(--secondary-background);
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+address {
+    font-style: normal;
+    line-height: 1.8;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: var(--text-color);
+    border-top: 1px solid #333333;
+}
