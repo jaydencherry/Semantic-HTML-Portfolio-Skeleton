@@ -106,9 +106,9 @@ a:focus-visible {
 
 #contact {
     background-color: var(--secondary-background);
-    padding: 30px;
-    border-radius: 12px;
-    margin-bottom: 40px;
+    padding: 18px 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 address {
