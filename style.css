@@ -87,3 +87,21 @@ section {
 #projects ul {
     padding-left: 25px;
     line-height: 1.8;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--pink-accent);
+    text-decoration: underline;
+}
+
+a:focus-visible {
+    outline: 2px solid var(--pink-accent);
+    outline-offset: 4px;
+}
+
+    
