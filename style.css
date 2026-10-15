@@ -139,6 +139,9 @@ footer {
     color: var(--text-color);
     border-top: 1px solid #333333;
 }
+/* Help me add three mobile-first media query breakpoints
+to my portfolio using CSS only. Make my Projects section
+responsive while preserving my existing colors and styling. */
 
 @media (min-width: 600px) {
     #projects {
