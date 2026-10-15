@@ -79,7 +79,7 @@ section. Keep the original colors and styling, use one
 column by default for mobile screens, and only modify CSS.*/
 #projects {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
 
