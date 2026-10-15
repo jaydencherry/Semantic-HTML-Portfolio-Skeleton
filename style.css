@@ -72,6 +72,20 @@ section {
     text-align: center;
     padding: 50px 25px;
 }
+/*
+AI Prompt:
+Add a CSS Grid layout to my existing portfolio's Projects
+section. Keep the original colors and styling, use one
+column by default for mobile screens, and only modify CSS.*/
+#projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+#projects h2 {
+    grid-column: 1 / -1;
+}
 
 #projects article {
     background-color: var(--secondary-background);
