@@ -22,18 +22,30 @@ const reduceMotion = window.matchMedia(
     "(prefers-reduced-motion: reduce)"
 ).matches;
 
-// Animate content when ScrollReveal is available
-// and the visitor has not requested reduced motion.
-if (typeof ScrollReveal === "function" && !reduceMotion) {
-    ScrollReveal().reveal(
-        "#about, #projects h2, #projects article, #contact",
-        {
-            distance: "20px",
-            origin: "bottom",
-            duration: 650,
-            interval: 100,
-            reset: false,
-            cleanup: true
-        }
-    );
+// ScrollReveal animations
+if (typeof ScrollReveal === "function") {
+    ScrollReveal().reveal("#about", {
+        distance: "40px",
+        origin: "bottom",
+        duration: 800
+    });
+
+    ScrollReveal().reveal("#projects h2", {
+        distance: "40px",
+        origin: "left",
+        duration: 800
+    });
+
+    ScrollReveal().reveal("#projects article", {
+        distance: "50px",
+        origin: "bottom",
+        duration: 900,
+        interval: 250
+    });
+
+    ScrollReveal().reveal("#contact", {
+        distance: "40px",
+        origin: "bottom",
+        duration: 800
+    });
 }
