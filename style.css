@@ -163,3 +163,42 @@ responsive while preserving my existing colors and styling. */
         gap: 25px;
     }
 }
+
+body.light-mode {
+    --background-color: #f4f6fb;
+    --secondary-background: #ffffff;
+    --text-color: #222222;
+    --accent-color: #2457a7;
+    --pink-accent: #a52a68;
+}
+
+/* Lighter borders for the light theme */
+
+body.light-mode #projects article,
+body.light-mode footer {
+    border-color: #cbd2df;
+}
+
+/* Dark/light mode button */
+
+#theme-toggle {
+    margin-top: 15px;
+    padding: 10px 16px;
+    background-color: var(--secondary-background);
+    color: var(--accent-color);
+    border: 2px solid var(--accent-color);
+    border-radius: 8px;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#theme-toggle:hover {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+}
+
+#theme-toggle:focus-visible {
+    outline: 2px solid var(--pink-accent);
+    outline-offset: 4px;
+}
